@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+ # -*- coding: utf-8 -*-
 """ラジオコント漫才〜RAKOMAN〜 : ラジオコント・ラジオ漫才専用の音声投稿サイト"""
 import os
 import re
@@ -500,12 +500,14 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                '{% if q %}<p>「<b>{{ q }}</b>」の検索結果({{ posts|length }}件)</p>{% endif %}\n'
                '\n'
                '{# ジャンルフィルタ #}\n'
-               '<div style="display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 4px">\n'
-               '  <a class="genre-badge" style="background:{{ \'#33303b\' if not genre else \'#ccc\' }};border-color:{{ \'#33303b\' if not genre else \'#aaa\' }}"\n'
-               '     href="{{ url_for(\'index\', sort=sort, period=period, q=q) }}">すべて</a>\n'
+               '<div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 6px">\n'
+               '  <a href="{{ url_for(\'index\', sort=sort, period=period, q=q) }}"\n'
+               '     style="display:inline-block;border:2.5px solid var(--ink);border-radius:999px;padding:5px 16px;font-weight:700;font-size:.88rem;text-decoration:none;\n'
+               '            background:{{ \'var(--ink)\' if not genre else \'#fff\' }};color:{{ \'#fff\' if not genre else \'var(--ink)\' }}">すべて</a>\n'
                '  {% for g in GENRES %}\n'
-               '  <a class="genre-badge" style="background:{{ GENRE_COLOR[g] if genre==g else \'#fff\' }};color:{{ \'#fff\' if genre==g else \'#33303b\' }}"\n'
-               '     href="{{ url_for(\'index\', sort=sort, period=period, q=q, genre=g) }}">{{ g }}</a>\n'
+               '  <a href="{{ url_for(\'index\', sort=sort, period=period, q=q, genre=g) }}"\n'
+               '     style="display:inline-block;border:2.5px solid var(--ink);border-radius:999px;padding:5px 16px;font-weight:700;font-size:.88rem;text-decoration:none;\n'
+               '            background:{{ GENRE_COLOR[g] if genre==g else \'#fff\' }};color:{{ \'#fff\' if genre==g else \'var(--ink)\' }}">{{ g }}</a>\n'
                '  {% endfor %}\n'
                '</div>\n'
                '\n'
