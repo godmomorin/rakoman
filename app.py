@@ -44,9 +44,7 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '<title>{% block title %}ラジオコント漫才〜RAKOMAN〜{% endblock %}</title>\n'
               '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
               '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
-              '<link '
-              'href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Baloo+2:wght@600;800&display=swap" '
-              'rel="stylesheet">\n'
+              '<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">\n'
               '<style>\n'
               '{% raw %}/* ラジオコント漫才〜RAKOMAN〜 : 白基調ポップデザイン */\n'
               ':root{\n'
@@ -90,8 +88,7 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '  color:#fff;background:var(--coral);border-radius:999px;padding:3px 10px;\n'
               '  box-shadow:0 3px 0 rgba(51,48,59,.18);\n'
               '}\n'
-              '.onair .dot{width:8px;height:8px;border-radius:50%;background:var(--sun);animation:blink 1.4s '
-              'infinite}\n'
+              '.onair .dot{width:8px;height:8px;border-radius:50%;background:var(--sun);animation:blink 1.4s infinite}\n'
               '@keyframes blink{0%,100%{opacity:1}50%{opacity:.25}}\n'
               '@media (prefers-reduced-motion:reduce){.onair .dot{animation:none}}\n'
               '.search{flex:1;min-width:180px}\n'
@@ -116,8 +113,7 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '.btn-ghost{box-shadow:none;border-color:transparent;background:transparent}\n'
               '.btn-ghost:hover{border-color:var(--line)}\n'
               '.btn-small{padding:4px 12px;font-size:.85rem;box-shadow:0 3px 0 var(--ink)}\n'
-              '.btn-danger{background:#fff;color:var(--coral);border-color:var(--coral);box-shadow:0 3px 0 '
-              'var(--coral)}\n'
+              '.btn-danger{background:#fff;color:var(--coral);border-color:var(--coral);box-shadow:0 3px 0 var(--coral)}\n'
               '\n'
               '/* ---------- flash ---------- */\n'
               '.flash-area{max-width:980px;margin:10px auto 0;padding:0 16px}\n'
@@ -168,29 +164,23 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '}\n'
               '.post-title{font-size:1.4rem;font-weight:900;margin:0 0 6px}\n'
               '.user-chip{display:inline-flex;align-items:center;gap:8px;font-weight:700}\n'
-              '.user-chip img,.avatar{width:34px;height:34px;border-radius:50%;object-fit:cover;border:2px solid '
-              'var(--ink);background:var(--soft)}\n'
+              '.user-chip img,.avatar{width:34px;height:34px;border-radius:50%;object-fit:cover;border:2px solid var(--ink);background:var(--soft)}\n'
               '.avatar-placeholder{display:inline-flex;align-items:center;justify-content:center;font-size:1.1rem}\n'
               '\n'
-              '.player{margin:14px 0;background:var(--soft);border:2.5px solid '
-              'var(--ink);border-radius:16px;padding:12px}\n'
+              '.player{margin:14px 0;background:var(--soft);border:2.5px solid var(--ink);border-radius:16px;padding:12px}\n'
               '.player audio{width:100%}\n'
               '.speed-row{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px;align-items:center}\n'
               '.speed-row .label{font-size:.82rem;font-weight:700;color:#7a7484}\n'
-              '.speed{border:2px solid var(--ink);background:#fff;border-radius:999px;padding:3px '
-              '11px;font:inherit;font-size:.85rem;font-weight:700;cursor:pointer}\n'
+              '.speed{border:2px solid var(--ink);background:#fff;border-radius:999px;padding:3px 11px;font:inherit;font-size:.85rem;font-weight:700;cursor:pointer}\n'
               '.speed.active{background:var(--mint);color:#fff}\n'
               '\n'
-              '.photo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;margin:12px '
-              '0}\n'
-              '.photo-grid img{width:100%;aspect-ratio:1;object-fit:cover;border:2.5px solid '
-              'var(--ink);border-radius:14px}\n'
+              '.photo-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:8px;margin:12px 0}\n'
+              '.photo-grid img{width:100%;aspect-ratio:1;object-fit:cover;border:2.5px solid var(--ink);border-radius:14px}\n'
               '\n'
               '.action-row{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0;align-items:center}\n'
               '.count{font-family:"Baloo 2",sans-serif;font-weight:800}\n'
               '.tags{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}\n'
-              '.tag{background:var(--sky);color:#fff;border:2px solid var(--ink);border-radius:999px;padding:2px '
-              '11px;font-size:.84rem;font-weight:700}\n'
+              '.tag{background:var(--sky);color:#fff;border:2px solid var(--ink);border-radius:999px;padding:2px 11px;font-size:.84rem;font-weight:700}\n'
               '.desc{white-space:pre-wrap;margin-top:10px}\n'
               '\n'
               '/* ---------- comments ---------- */\n'
@@ -202,20 +192,17 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '.note{color:var(--coral);font-weight:700;font-size:.85rem}\n'
               '\n'
               '/* ---------- forms ---------- */\n'
-              '.form-box{max-width:520px;margin:24px auto;background:#fff;border:2.5px solid '
-              'var(--ink);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}\n'
+              '.form-box{max-width:520px;margin:24px auto;background:#fff;border:2.5px solid var(--ink);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow)}\n'
               '.form-box h1{margin-top:0;font-size:1.25rem}\n'
               '.field{margin-bottom:14px}\n'
               '.field label{display:block;font-weight:700;margin-bottom:4px;font-size:.92rem}\n'
               '.field input[type=text],.field input[type=password],.field input[type=search],\n'
               '.field textarea,.field select{\n'
-              '  width:100%;padding:10px 14px;border:2.5px solid '
-              'var(--ink);border-radius:14px;font:inherit;background:#fff;\n'
+              '  width:100%;padding:10px 14px;border:2.5px solid var(--ink);border-radius:14px;font:inherit;background:#fff;\n'
               '}\n'
               '.field textarea{min-height:100px}\n'
               '.hint{font-size:.8rem;color:#9b94a5;margin-top:3px}\n'
-              '.warn-box{background:#fff2f5;border:2.5px solid var(--coral);border-radius:14px;padding:10px '
-              '14px;font-size:.88rem;margin-bottom:14px}\n'
+              '.warn-box{background:#fff2f5;border:2.5px solid var(--coral);border-radius:14px;padding:10px 14px;font-size:.88rem;margin-bottom:14px}\n'
               '.file-input{font:inherit}\n'
               '\n'
               '/* ---------- profile ---------- */\n'
@@ -225,14 +212,11 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '.tabs{display:flex;gap:8px;margin:14px 0;flex-wrap:wrap}\n'
               '\n'
               '/* ---------- playlist ---------- */\n'
-              '.pl-item{display:flex;align-items:center;gap:12px;padding:12px;border:2.5px solid '
-              'var(--ink);border-radius:16px;background:#fff;margin-bottom:10px;box-shadow:var(--shadow)}\n'
-              '.pl-item .num{font-family:"Baloo '
-              '2",sans-serif;font-weight:800;color:var(--coral);width:26px;text-align:center}\n'
+              '.pl-item{display:flex;align-items:center;gap:12px;padding:12px;border:2.5px solid var(--ink);border-radius:16px;background:#fff;margin-bottom:10px;box-shadow:var(--shadow)}\n'
+              '.pl-item .num{font-family:"Baloo 2",sans-serif;font-weight:800;color:var(--coral);width:26px;text-align:center}\n'
               '.inline-form{display:inline}\n'
               '\n'
-              '.site-footer{margin-top:48px;padding:24px 16px;border-top:3px solid '
-              'var(--ink);text-align:center;font-size:.85rem;background:#fff}\n'
+              '.site-footer{margin-top:48px;padding:24px 16px;border-top:3px solid var(--ink);text-align:center;font-size:.85rem;background:#fff}\n'
               '.empty{padding:36px 12px;text-align:center;color:#9b94a5}\n'
               '\n'
               '@media (max-width:640px){\n'
@@ -251,15 +235,13 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '    <span class="logo-text">ラジオコント漫才<b>〜RAKOMAN〜</b></span>\n'
               '  </a>\n'
               '  <form class="search" action="{{ url_for(\'index\') }}" method="get">\n'
-              '    <input type="search" name="q" value="{{ request.args.get(\'q\',\'\') }}" placeholder="🔍 '
-              'タイトル・ユーザー・#ハッシュタグ">\n'
+              '    <input type="search" name="q" value="{{ request.args.get(\'q\',\'\') }}" placeholder="🔍 タイトル・ユーザー・#ハッシュタグ">\n'
               '  </form>\n'
               '  <nav class="nav">\n'
               '    {% if me %}\n'
               '      <a class="btn btn-primary" href="{{ url_for(\'upload\') }}">🎙️ 投稿する</a>\n'
               '      <a class="btn btn-ghost" href="{{ url_for(\'profile\', username=me.username) }}">\n'
-              '        {% if me.icon %}<img class="mini-icon" src="{{ url_for(\'media\', filename=me.icon) }}" '
-              'alt="">{% else %}😀{% endif %}\n'
+              '        {% if me.icon %}<img class="mini-icon" src="{{ url_for(\'media\', filename=me.icon) }}" alt="">{% else %}😀{% endif %}\n'
               '        マイページ</a>\n'
               '      <a class="btn btn-ghost" href="{{ url_for(\'logout\') }}">ログアウト</a>\n'
               '    {% else %}\n'
@@ -288,6 +270,24 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '<script>\n'
               '{% raw %}// RAKOMAN front script\n'
               'document.addEventListener("DOMContentLoaded", () => {\n'
+              '\n'
+              '  // ---- ジャンル選択ボタンのビジュアル ----\n'
+              '  document.querySelectorAll(".genre-radio").forEach(radio => {\n'
+              '    const span = radio.nextElementSibling;\n'
+              '    const colors = {"コント":"#ff5470","漫才":"#5aa9ff","漫談":"#2ec4b6","エピソードトーク":"#ffc830","その他":"#7a7484"};\n'
+              '    const update = () => {\n'
+              '      document.querySelectorAll(".genre-radio").forEach(r => {\n'
+              '        const s = r.nextElementSibling;\n'
+              '        const c = colors[r.value] || "#7a7484";\n'
+              '        s.style.background = r.checked ? c : "#fff";\n'
+              '        s.style.color = r.checked ? "#fff" : "var(--ink)";\n'
+              '        s.style.borderColor = r.checked ? "var(--ink)" : "var(--line)";\n'
+              '      });\n'
+              '    };\n'
+              '    radio.addEventListener("change", update);\n'
+              '    span.addEventListener("click", () => { radio.checked = true; radio.dispatchEvent(new Event("change")); });\n'
+              '    update();\n'
+              '  });\n'
               '\n'
               '  // ---- ユーザーアイコン/名前クリックでプロフィールへ ----\n'
               '  document.querySelectorAll(".user-link").forEach(el => {\n'
@@ -428,12 +428,22 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                    '{% block content %}\n'
                    '<div class="form-box">\n'
                    '  <h1 style="margin-top:0;font-size:1.2rem">✏️ 投稿を編集</h1>\n'
-                   '  <p class="hint">音声ファイルと写真は変更できません。タイトル・説明・ハッシュタグのみ編集できます。</p>\n'
-                   '  <form method="post">\n'
+                   '  <form method="post" enctype="multipart/form-data">\n'
+                   '    <div class="field">\n'
+                   '      <label>🎭 ジャンル(必須)</label>\n'
+                   '      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px">\n'
+                   '        {% for g in GENRES %}\n'
+                   '        <label style="cursor:pointer">\n'
+                   '          <input type="radio" name="genre" value="{{ g }}" {{ \'checked\' if post.genre == g }} required style="display:none" class="genre-radio">\n'
+                   '          <span class="genre-badge" style="background:{{ GENRE_COLOR.get(g,\'#fff\') if post.genre==g else \'#fff\' }};color:{{ \'#fff\' if post.genre==g else \'var(--ink)\' '
+                   '}};border-color:{{ \'var(--ink)\' if post.genre==g else \'var(--line)\' }}">{{ g }}</span>\n'
+                   '        </label>\n'
+                   '        {% endfor %}\n'
+                   '      </div>\n'
+                   '    </div>\n'
                    '    <div class="field">\n'
                    '      <label for="title">タイトル(必須)</label>\n'
-                   '      <input type="text" id="title" name="title" maxlength="60" required value="{{ post.title '
-                   '}}">\n'
+                   '      <input type="text" id="title" name="title" maxlength="60" required value="{{ post.title }}">\n'
                    '    </div>\n'
                    '    <div class="field">\n'
                    '      <label for="description">説明</label>\n'
@@ -446,7 +456,36 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                    '             value="{{ post.hashtags or "" }}">\n'
                    '      <p class="hint">スペースか「,」で区切って入力</p>\n'
                    '    </div>\n'
-                   '    <div style="display:flex;gap:10px;flex-wrap:wrap">\n'
+                   '    <div class="field">\n'
+                   '      <label>🎙️ 音声ファイルを差し替え(任意)</label>\n'
+                   '      <audio controls src="{{ url_for(\'media\', filename=post.audio) }}" style="width:100%;margin:6px 0"></audio>\n'
+                   '      <input class="file-input" type="file" name="audio" accept="audio/*,.m4a,.mp3,.wav,.aac">\n'
+                   '      <p class="hint">選ばない場合は現在の音声のままです</p>\n'
+                   '    </div>\n'
+                   '    {% if images %}\n'
+                   '    <div class="field">\n'
+                   '      <label>📸 現在の写真(×で削除)</label>\n'
+                   '      <div class="photo-grid">\n'
+                   '        {% for img in images %}\n'
+                   '        <div style="position:relative">\n'
+                   '          <img src="{{ url_for(\'media\', filename=img.filename) }}"\n'
+                   '               style="width:100%;aspect-ratio:1;object-fit:cover;border:2.5px solid var(--ink);border-radius:14px">\n'
+                   '          <label style="position:absolute;top:4px;right:4px;background:var(--coral);color:#fff;border-radius:999px;padding:2px '
+                   '8px;font-size:.8rem;font-weight:700;cursor:pointer">\n'
+                   '            <input type="checkbox" name="delete_image" value="{{ img.id }}" style="display:none">❌</label>\n'
+                   '        </div>\n'
+                   '        {% endfor %}\n'
+                   '      </div>\n'
+                   '      <p class="hint">❌をタップしてチェックを入れると「更新する」時に削除されます</p>\n'
+                   '    </div>\n'
+                   '    {% endif %}\n'
+                   '    {% if images|length < 4 %}\n'
+                   '    <div class="field">\n'
+                   '      <label>📸 写真を追加(合計4枚まで・あと{{ 4 - images|length }}枚)</label>\n'
+                   '      <input class="file-input" type="file" name="new_images" accept="image/*" multiple>\n'
+                   '    </div>\n'
+                   '    {% endif %}\n'
+                   '    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:6px">\n'
                    '      <button class="btn btn-primary">更新する ✏️</button>\n'
                    '      <a class="btn btn-ghost" href="{{ url_for(\'post_page\', post_id=post.id) }}">キャンセル</a>\n'
                    '    </div>\n'
@@ -455,22 +494,28 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                    '{% endblock %}',
  'index.html': '{% extends "base.html" %}\n'
                '{% block content %}\n'
-               '<div class="hero">\n'
-               '  <h1>📻 笑える"音"だけのステージ</h1>\n'
-               '  <p>ラジオコント・ラジオ漫才専門の投稿サイト。聴いて、笑って、👍と🤩で応援しよう!</p>\n'
-               '</div>\n'
+               '<div class="hero"><h1>📻 笑える"音"だけのステージ</h1>\n'
+               '<p>ラジオコント・ラジオ漫才専門の投稿サイト。聴いて、笑って、👍と🤩で応援しよう!</p></div>\n'
                '\n'
                '{% if q %}<p>「<b>{{ q }}</b>」の検索結果({{ posts|length }}件)</p>{% endif %}\n'
                '\n'
+               '{# ジャンルフィルタ #}\n'
+               '<div style="display:flex;gap:6px;flex-wrap:wrap;margin:10px 0 4px">\n'
+               '  <a class="genre-badge" style="background:{{ \'#33303b\' if not genre else \'#ccc\' }};border-color:{{ \'#33303b\' if not genre else \'#aaa\' }}"\n'
+               '     href="{{ url_for(\'index\', sort=sort, period=period, q=q) }}">すべて</a>\n'
+               '  {% for g in GENRES %}\n'
+               '  <a class="genre-badge" style="background:{{ GENRE_COLOR[g] if genre==g else \'#fff\' }};color:{{ \'#fff\' if genre==g else \'#33303b\' }}"\n'
+               '     href="{{ url_for(\'index\', sort=sort, period=period, q=q, genre=g) }}">{{ g }}</a>\n'
+               '  {% endfor %}\n'
+               '</div>\n'
+               '\n'
                '<div class="filters">\n'
                '  {% for key, label in SORTS %}\n'
-               '    <a class="tab {{ \'active\' if sort == key }}"\n'
-               '       href="{{ url_for(\'index\', sort=key, period=period, q=q) }}">{{ label }}</a>\n'
+               '    <button class="tab {{ \'active\' if sort == key }}" onclick="location.href=\'{{ url_for(\'index\', sort=key, period=period, q=q, genre=genre) }}\'">{{ label }}</button>\n'
                '  {% endfor %}\n'
                '  <select class="period-select" onchange="location.href=this.value">\n'
                '    {% for key, label, _ in PERIODS %}\n'
-               '      <option value="{{ url_for(\'index\', sort=sort, period=key, q=q) }}" {{ \'selected\' if period '
-               '== key }}>⏰ {{ label }}</option>\n'
+               '      <option value="{{ url_for(\'index\', sort=sort, period=key, q=q, genre=genre) }}" {{ \'selected\' if period == key }}>⏰ {{ label }}</option>\n'
                '    {% endfor %}\n'
                '  </select>\n'
                '</div>\n'
@@ -478,34 +523,28 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                '{% if posts %}\n'
                '<div class="grid">\n'
                '  {% for p in posts %}\n'
-               '  <a class="card" href="{{ url_for(\'post_page\', post_id=p.id) }}?src=feed&sort={{ sort }}&period={{ '
-               'period }}{% if q %}&q={{ q|urlencode }}{% endif %}">\n'
-               '    <div class="thumb">\n'
-               '      {% if p.thumb %}<img src="{{ url_for(\'media\', filename=p.thumb) }}" alt="" loading="lazy">{% '
-               'else %}🎙️{% endif %}\n'
+               '  <a class="card" href="{{ url_for(\'post_page\', post_id=p.id) }}?src=feed&sort={{ sort }}&period={{ period }}{% if q %}&q={{ q|urlencode }}{% endif %}{% if genre %}&genre={{ '
+               'genre|urlencode }}{% endif %}">\n'
+               '    <div class="thumb" style="background:linear-gradient(135deg,#fff6f0,#fffbe9)">\n'
+               '      {% if p.thumb %}<img src="{{ url_for(\'media\', filename=p.thumb) }}" alt="" loading="lazy">{% else %}🎙️{% endif %}\n'
                '    </div>\n'
                '    <div class="body">\n'
-               '      <div class="title">{{ p.title }}{% if not p.is_public %} <span '
-               'class="badge-private">非公開</span>{% endif %}</div>\n'
+               '      {% if p.genre %}<a class="genre-badge" style="background:{{ GENRE_COLOR.get(p.genre,\'#7a7484\') }};font-size:.72rem;padding:1px 9px;margin-bottom:2px"\n'
+               '         href="{{ url_for(\'index\', genre=p.genre) }}" onclick="event.stopPropagation()">{{ p.genre }}</a>{% endif %}\n'
+               '      <div class="title">{{ p.title }}{% if not p.is_public %} <span class="badge-private">非公開</span>{% endif %}</div>\n'
                '      <div class="meta user-link" data-user="{{ p.username }}" title="{{ p.username }}のプロフィールを見る">\n'
-               '        {% if p.user_icon %}<img class="mini-icon" src="{{ url_for(\'media\', filename=p.user_icon) '
-               '}}" alt="">{% else %}😀{% endif %}\n'
+               '        {% if p.user_icon %}<img class="mini-icon" src="{{ url_for(\'media\', filename=p.user_icon) }}" alt="">{% else %}😀{% endif %}\n'
                '        {{ p.username }}\n'
                '      </div>\n'
-               '      <div class="stats">\n'
-               '        <span>▶️ {{ p.views }}</span>\n'
-               '        <span>👍 {{ p.likes }}</span>\n'
-               '        <span>🤩 {{ p.fav_count }}</span>\n'
-               '        <span>💬 {{ p.comment_count }}</span>\n'
-               '      </div>\n'
+               '      <div class="stats"><span>▶️ {{ p.views }}</span><span>👍 {{ p.likes }}</span><span>🤩 {{ p.fav_count }}</span><span>💬 {{ p.comment_count }}</span></div>\n'
                '    </div>\n'
                '  </a>\n'
                '  {% endfor %}\n'
                '</div>\n'
                '{% else %}\n'
-               '<div class="empty">まだ投稿がありません。最初のコントを投稿してみよう!🎙️✨</div>\n'
+               '<div class="empty">{% if genre %}「{{ genre }}」の投稿はまだありません。最初の投稿をどうぞ!🎙️{% else %}まだ投稿がありません。最初のコントを投稿してみよう!🎙️✨{% endif %}</div>\n'
                '{% endif %}\n'
-               '{% endblock %}\n',
+               '{% endblock %}',
  'login.html': '{% extends "base.html" %}\n'
                '{% block title %}ログイン | RAKOMAN{% endblock %}\n'
                '{% block content %}\n'
@@ -530,30 +569,23 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                   '{% block content %}\n'
                   '<div class="post-box">\n'
                   '  <h1 class="post-title">🎶 {{ pl.title }}\n'
-                  '    <span class="badge-private" style="{{ \'background:var(--mint)\' if pl.is_public }}">{{ \'公開\' '
-                  "if pl.is_public else '非公開' }}</span>\n"
+                  '    <span class="badge-private" style="{{ \'background:var(--mint)\' if pl.is_public }}">{{ \'公開\' if pl.is_public else \'非公開\' }}</span>\n'
                   '  </h1>\n'
-                  '  <p class="meta">作成:<a href="{{ url_for(\'profile\', username=pl.username) }}"><b>{{ pl.username '
-                  '}}</b></a> ・ {{ items|length }}本</p>\n'
+                  '  <p class="meta">作成:<a href="{{ url_for(\'profile\', username=pl.username) }}"><b>{{ pl.username }}</b></a> ・ {{ items|length }}本</p>\n'
                   '\n'
                   '  {% if mine %}\n'
                   '  <div class="action-row">\n'
-                  '    <form class="inline-form" method="post" action="{{ url_for(\'playlist_toggle_public\', '
-                  'playlist_id=pl.id) }}">\n'
-                  '      <button class="btn btn-small">{{ \'🔓 公開にする\' if not pl.is_public else \'🔒 非公開にする\' '
-                  '}}</button>\n'
+                  '    <form class="inline-form" method="post" action="{{ url_for(\'playlist_toggle_public\', playlist_id=pl.id) }}">\n'
+                  '      <button class="btn btn-small">{{ \'🔓 公開にする\' if not pl.is_public else \'🔒 非公開にする\' }}</button>\n'
                   '    </form>\n'
                   '    <details>\n'
                   '      <summary class="btn btn-small">✏️ タイトル変更</summary>\n'
-                  '      <form method="post" action="{{ url_for(\'playlist_rename\', playlist_id=pl.id) }}" '
-                  'style="margin-top:8px;display:flex;gap:6px">\n'
-                  '        <input type="text" name="title" value="{{ pl.title }}" required style="padding:6px '
-                  '12px;border:2.5px solid var(--ink);border-radius:999px;font:inherit">\n'
+                  '      <form method="post" action="{{ url_for(\'playlist_rename\', playlist_id=pl.id) }}" style="margin-top:8px;display:flex;gap:6px">\n'
+                  '        <input type="text" name="title" value="{{ pl.title }}" required style="padding:6px 12px;border:2.5px solid var(--ink);border-radius:999px;font:inherit">\n'
                   '        <button class="btn btn-small btn-primary">変更</button>\n'
                   '      </form>\n'
                   '    </details>\n'
-                  '    <form class="inline-form" method="post" action="{{ url_for(\'playlist_delete\', '
-                  'playlist_id=pl.id) }}"\n'
+                  '    <form class="inline-form" method="post" action="{{ url_for(\'playlist_delete\', playlist_id=pl.id) }}"\n'
                   '          onsubmit="return confirm(\'このプレイリストを削除しますか?(投稿自体は消えません)\')">\n'
                   '      <button class="btn btn-small btn-danger">🗑️ プレイリストを削除</button>\n'
                   '    </form>\n'
@@ -564,32 +596,24 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                   '{% for p in items %}\n'
                   '<div class="pl-item">\n'
                   '  <span class="num">{{ loop.index }}</span>\n'
-                  '  {% if p.thumb %}<img class="avatar" src="{{ url_for(\'media\', filename=p.thumb) }}" alt="">{% '
-                  'else %}<span class="avatar avatar-placeholder">🎙️</span>{% endif %}\n'
+                  '  {% if p.thumb %}<img class="avatar" src="{{ url_for(\'media\', filename=p.thumb) }}" alt="">{% else %}<span class="avatar avatar-placeholder">🎙️</span>{% endif %}\n'
                   '  <div style="flex:1;min-width:0">\n'
                   '    <a href="{{ url_for(\'post_page\', post_id=p.id) }}"><b>{{ p.title }}</b></a>\n'
-                  '    <div class="meta"><a href="{{ url_for(\'profile\', username=p.username) }}"><b>{{ p.username '
-                  '}}</b></a> ・ ▶️ {{ p.views }} ・ 👍 {{ p.likes }}</div>\n'
-                  '    <audio class="pl-audio" controls preload="none" src="{{ url_for(\'media\', filename=p.audio) '
-                  '}}" style="width:100%;margin-top:4px"></audio>\n'
+                  '    <div class="meta"><a href="{{ url_for(\'profile\', username=p.username) }}"><b>{{ p.username }}</b></a> ・ ▶️ {{ p.views }} ・ 👍 {{ p.likes }}</div>\n'
+                  '    <audio class="pl-audio" controls preload="none" src="{{ url_for(\'media\', filename=p.audio) }}" style="width:100%;margin-top:4px"></audio>\n'
                   '  </div>\n'
                   '  {% if mine %}\n'
                   '  <div style="display:flex;flex-direction:column;gap:4px">\n'
-                  '    <form class="inline-form" method="post" action="{{ url_for(\'playlist_move\', '
-                  'playlist_id=pl.id) }}">\n'
-                  '      <input type="hidden" name="item_id" value="{{ p.item_id }}"><input type="hidden" name="dir" '
-                  'value="up">\n'
+                  '    <form class="inline-form" method="post" action="{{ url_for(\'playlist_move\', playlist_id=pl.id) }}">\n'
+                  '      <input type="hidden" name="item_id" value="{{ p.item_id }}"><input type="hidden" name="dir" value="up">\n'
                   '      <button class="btn btn-small" {{ \'disabled\' if loop.first }}>▲</button>\n'
                   '    </form>\n'
-                  '    <form class="inline-form" method="post" action="{{ url_for(\'playlist_move\', '
-                  'playlist_id=pl.id) }}">\n'
-                  '      <input type="hidden" name="item_id" value="{{ p.item_id }}"><input type="hidden" name="dir" '
-                  'value="down">\n'
+                  '    <form class="inline-form" method="post" action="{{ url_for(\'playlist_move\', playlist_id=pl.id) }}">\n'
+                  '      <input type="hidden" name="item_id" value="{{ p.item_id }}"><input type="hidden" name="dir" value="down">\n'
                   '      <button class="btn btn-small" {{ \'disabled\' if loop.last }}>▼</button>\n'
                   '    </form>\n'
                   '  </div>\n'
-                  '  <form class="inline-form" method="post" action="{{ url_for(\'playlist_toggle_item\', '
-                  'playlist_id=pl.id) }}">\n'
+                  '  <form class="inline-form" method="post" action="{{ url_for(\'playlist_toggle_item\', playlist_id=pl.id) }}">\n'
                   '    <input type="hidden" name="post_id" value="{{ p.id }}">\n'
                   '    <button class="btn btn-small btn-danger">➖</button>\n'
                   '  </form>\n'
@@ -612,8 +636,9 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '{% block title %}{{ post.title }} | RAKOMAN{% endblock %}\n'
               '{% block content %}\n'
               '<article class="post-box">\n'
-              '  <h1 class="post-title">{{ post.title }}{% if not post.is_public %} <span '
-              'class="badge-private">非公開</span>{% endif %}</h1>\n'
+              '  {% if post.genre %}<a class="genre-badge" href="{{ url_for(\'index\', genre=post.genre) }}" style="background:{{ GENRE_COLOR.get(post.genre,\'#7a7484\') '
+              '}};margin-bottom:6px;display:inline-block">{{ post.genre }}</a>{% endif %}\n'
+              '  <h1 class="post-title">{{ post.title }}{% if not post.is_public %} <span class="badge-private">非公開</span>{% endif %}</h1>\n'
               '  <a class="user-chip" href="{{ url_for(\'profile\', username=post.username) }}">\n'
               '    {% if post.user_icon %}<img src="{{ url_for(\'media\', filename=post.user_icon) }}" alt="">\n'
               '    {% else %}<span class="avatar avatar-placeholder">😀</span>{% endif %}\n'
@@ -626,19 +651,16 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '      src="{{ url_for(\'media\', filename=post.audio) }}"\n'
               '      data-title="{{ post.title }}"\n'
               '      data-artist="{{ post.username }}"\n'
-              '      data-next="{{ url_for(\'next_post\', post_id=post.id) }}{% if request.query_string %}?{{ '
-              'request.query_string.decode() }}{% endif %}"\n'
+              '      data-next="{{ url_for(\'next_post\', post_id=post.id) }}{% if request.query_string %}?{{ request.query_string.decode() }}{% endif %}"\n'
               '      {% if images %}data-artwork="{{ url_for(\'media\', filename=images[0].filename) }}"{% endif %}>\n'
               '    </audio>\n'
               '    <div class="speed-row">\n'
               '      <span class="label">⏩ 倍速:</span>\n'
               "      {% for r in ['0.75','1.0','1.25','1.5','2.0'] %}\n"
-              '        <button type="button" class="speed {{ \'active\' if r == \'1.0\' }}" data-rate="{{ r }}">×{{ r '
-              '}}</button>\n'
+              '        <button type="button" class="speed {{ \'active\' if r == \'1.0\' }}" data-rate="{{ r }}">×{{ r }}</button>\n'
               '      {% endfor %}\n'
               '    </div>\n'
-              '    <div id="next-banner" hidden style="margin-top:10px;background:#fff;border:2.5px solid '
-              'var(--ink);border-radius:12px;padding:8px 12px;font-size:.88rem;font-weight:700">\n'
+              '    <div id="next-banner" hidden style="margin-top:10px;background:#fff;border:2.5px solid var(--ink);border-radius:12px;padding:8px 12px;font-size:.88rem;font-weight:700">\n'
               '      ▶️ 次を再生中:<a id="next-link" href="#" style="color:var(--coral)"></a>\n'
               '    </div>\n'
               '    <p class="hint">🔒 画面を閉じたり他のアプリを開いてもそのまま再生できます(ロック画面から操作OK)<br>\n'
@@ -650,17 +672,14 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '    {% for img in images %}\n'
               '      <div>\n'
               '        <a href="{{ url_for(\'media\', filename=img.filename) }}" target="_blank" rel="noopener">\n'
-              '          <img src="{{ url_for(\'media\', filename=img.filename) }}" alt="投稿写真{{ loop.index }}" '
-              'loading="lazy"\n'
-              '               style="{{ \'outline:4px solid var(--sun)\' if img.id == post.thumb_id or (not '
-              'post.thumb_id and loop.first) }}">\n'
+              '          <img src="{{ url_for(\'media\', filename=img.filename) }}" alt="投稿写真{{ loop.index }}" loading="lazy"\n'
+              '               style="{{ \'outline:4px solid var(--sun)\' if img.id == post.thumb_id or (not post.thumb_id and loop.first) }}">\n'
               '        </a>\n'
               '        {% if me and (me.id == post.user_id or me_is_admin) %}\n'
               '          {% if img.id == post.thumb_id or (not post.thumb_id and loop.first) %}\n'
               '            <p class="hint" style="text-align:center">🖼️ サムネイル</p>\n'
               '          {% else %}\n'
-              '            <form method="post" action="{{ url_for(\'set_thumbnail\', post_id=post.id) }}" '
-              'style="text-align:center">\n'
+              '            <form method="post" action="{{ url_for(\'set_thumbnail\', post_id=post.id) }}" style="text-align:center">\n'
               '              <input type="hidden" name="image_id" value="{{ img.id }}">\n'
               '              <button class="btn btn-small" style="margin-top:4px">🖼️ サムネにする</button>\n'
               '            </form>\n'
@@ -672,19 +691,16 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '  {% endif %}\n'
               '\n'
               '  <div class="action-row">\n'
-              '    <button class="btn" data-like="{{ post.id }}">👍 いいね <span class="count">{{ post.likes '
-              '}}</span></button>\n'
+              '    <button class="btn" data-like="{{ post.id }}">👍 いいね <span class="count">{{ post.likes }}</span></button>\n'
               '    {% if me %}\n'
               '      <button class="btn {{ \'btn-sun\' if faved }}" data-fav="{{ post.id }}">\n'
               '        🤩 <span class="fav-label">{{ \'お気に入り済み\' if faved else \'お気に入り\' }}</span>\n'
               '        <span class="count">{{ post.fav_count }}</span>\n'
               '      </button>\n'
               '    {% else %}\n'
-              '      <a class="btn" href="{{ url_for(\'login\', next=request.path) }}">🤩 お気に入り <span class="count">{{ '
-              'post.fav_count }}</span></a>\n'
+              '      <a class="btn" href="{{ url_for(\'login\', next=request.path) }}">🤩 お気に入り <span class="count">{{ post.fav_count }}</span></a>\n'
               '    {% endif %}\n'
-              '    <button class="btn btn-mint" data-copy-url="{{ request.url_root.rstrip(\'/\') }}{{ '
-              'url_for(\'post_page\', post_id=post.id) }}">🔗 URLをコピーして共有</button>\n'
+              '    <button class="btn btn-mint" data-copy-url="{{ request.url_root.rstrip(\'/\') }}{{ url_for(\'post_page\', post_id=post.id) }}">🔗 URLをコピーして共有</button>\n'
               '  </div>\n'
               '\n'
               '  {% if post.description %}<p class="desc">{{ post.description }}</p>{% endif %}\n'
@@ -703,11 +719,9 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '      <summary class="btn btn-small">🎶 プレイリストに追加</summary>\n'
               '      <div style="margin-top:8px;display:flex;flex-direction:column;gap:6px">\n'
               '        {% for pl in my_playlists %}\n'
-              '        <form class="inline-form" method="post" action="{{ url_for(\'playlist_toggle_item\', '
-              'playlist_id=pl.id) }}">\n'
+              '        <form class="inline-form" method="post" action="{{ url_for(\'playlist_toggle_item\', playlist_id=pl.id) }}">\n'
               '          <input type="hidden" name="post_id" value="{{ post.id }}">\n'
-              '          <button class="btn btn-small {{ \'btn-sun\' if pl.has_it }}">{{ \'✅\' if pl.has_it else \'➕\' '
-              '}} {{ pl.title }}</button>\n'
+              '          <button class="btn btn-small {{ \'btn-sun\' if pl.has_it }}">{{ \'✅\' if pl.has_it else \'➕\' }} {{ pl.title }}</button>\n'
               '        </form>\n'
               '        {% endfor %}\n'
               '      </div>\n'
@@ -715,13 +729,10 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '    {% endif %}\n'
               '    <details>\n'
               '      <summary class="btn btn-small">🆕 新しいプレイリストを作って追加</summary>\n'
-              '      <form method="post" action="{{ url_for(\'create_playlist\') }}" '
-              'style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">\n'
+              '      <form method="post" action="{{ url_for(\'create_playlist\') }}" style="margin-top:8px;display:flex;gap:6px;flex-wrap:wrap">\n'
               '        <input type="hidden" name="post_id" value="{{ post.id }}">\n'
-              '        <input type="text" name="title" placeholder="プレイリスト名" required style="padding:6px '
-              '12px;border:2.5px solid var(--ink);border-radius:999px;font:inherit">\n'
-              '        <label style="font-size:.85rem"><input type="checkbox" name="is_public" value="1"> '
-              '公開する</label>\n'
+              '        <input type="text" name="title" placeholder="プレイリスト名" required style="padding:6px 12px;border:2.5px solid var(--ink);border-radius:999px;font:inherit">\n'
+              '        <label style="font-size:.85rem"><input type="checkbox" name="is_public" value="1"> 公開する</label>\n'
               '        <button class="btn btn-small btn-primary">作成 🎶</button>\n'
               '      </form>\n'
               '    </details>\n'
@@ -734,15 +745,12 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '    {% if me.id == post.user_id %}\n'
               '    <a class="btn btn-small" href="{{ url_for(\'edit_post\', post_id=post.id) }}">✏️ タイトル・説明を編集</a>\n'
               '    {% endif %}\n'
-              '    <form class="inline-form" method="post" action="{{ url_for(\'toggle_public\', post_id=post.id) '
-              '}}">\n'
+              '    <form class="inline-form" method="post" action="{{ url_for(\'toggle_public\', post_id=post.id) }}">\n'
               '      <button class="btn btn-small">{{ \'🔓 公開にする\' if not post.is_public else \'🔒 非公開にする\' }}</button>\n'
               '    </form>\n'
-              '    <form class="inline-form" method="post" action="{{ url_for(\'delete_post\', post_id=post.id) }}"\n'
-              '          onsubmit="return confirm(\'この投稿を削除します。よろしいですか?\')">\n'
-              '      <button class="btn btn-small btn-danger">🗑️ 投稿を削除{{ \'(管理人)\' if me.id != post.user_id '
-              '}}</button>\n'
-              '    </form>\n'
+              '    <span id="del-wrap-{{post.id}}">\n'
+              '      <button type="button" class="btn btn-small btn-danger" onclick="document.getElementById(\'del-wrap-{{post.id}}\').innerHTML=\'<form method=\\\'post\\\'  '
+              'action=\\\'/post/{{post.id}}/delete\\\'><button class=\\\'btn btn-small btn-danger\\\'>⚠️ 本当に削除する</button></form>\'">🗑️ 投稿を削除{{ \'(管理人)\' if me.id != post.user_id }}</span>\n'
               '  </div>\n'
               '  {% endif %}\n'
               '</article>\n'
@@ -754,8 +762,7 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '  {% for c in comments %}\n'
               '  <div class="comment">\n'
               '    <a href="{{ url_for(\'profile\', username=c.username) }}" title="{{ c.username }}のプロフィールを見る">\n'
-              '      {% if c.user_icon %}<img class="avatar" src="{{ url_for(\'media\', filename=c.user_icon) }}" '
-              'alt="{{ c.username }}">\n'
+              '      {% if c.user_icon %}<img class="avatar" src="{{ url_for(\'media\', filename=c.user_icon) }}" alt="{{ c.username }}">\n'
               '      {% else %}<span class="avatar avatar-placeholder">😀</span>{% endif %}\n'
               '    </a>\n'
               '    <div class="body">\n'
@@ -764,8 +771,7 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '      <div class="text">{{ c.body }}</div>\n'
               '    </div>\n'
               '    {% if me and (me.id == c.user_id or me.id == post.user_id or me_is_admin) %}\n'
-              '    <form class="inline-form" method="post" action="{{ url_for(\'delete_comment\', comment_id=c.id) '
-              '}}"\n'
+              '    <form class="inline-form" method="post" action="{{ url_for(\'delete_comment\', comment_id=c.id) }}"\n'
               '          onsubmit="return confirm(\'このコメントを削除しますか?\')">\n'
               '      <button class="btn btn-small btn-danger">🗑️</button>\n'
               '    </form>\n'
@@ -776,8 +782,7 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '  {% endfor %}\n'
               '\n'
               '  {% if me %}\n'
-              '  <form method="post" action="{{ url_for(\'add_comment\', post_id=post.id) }}" '
-              'style="margin-top:14px">\n'
+              '  <form method="post" action="{{ url_for(\'add_comment\', post_id=post.id) }}" style="margin-top:14px">\n'
               '    <div class="field">\n'
               '      <textarea name="body" placeholder="おもしろかったポイントを伝えよう!😂👏✨" required></textarea>\n'
               '      <p class="hint">🎯 ルール:コメントには絵文字を<b>3種類以上</b>入れてね!(例:😂👏🔥)</p>\n'
@@ -799,8 +804,7 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                  "    <h1>{{ user.username }} {% if user.username == 'admin' %}🛡️{% endif %}</h1>\n"
                  '    <p class="hint">{{ user.created_at[:10] }} からRAKOMANにいます 📻</p>\n'
                  '    {% if mine %}\n'
-                 '    <form method="post" action="{{ url_for(\'change_icon\') }}" enctype="multipart/form-data" '
-                 'style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">\n'
+                 '    <form method="post" action="{{ url_for(\'change_icon\') }}" enctype="multipart/form-data" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">\n'
                  '      <input class="file-input" type="file" name="icon" accept="image/*" required>\n'
                  '      <button class="btn btn-small">📸 アイコンを変更</button>\n'
                  '    </form>\n'
@@ -819,8 +823,7 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                  '  <summary class="btn btn-small">📝 自己紹介を{{ \'編集\' if user.bio else \'書く\' }}(500字まで)</summary>\n'
                  '  <form method="post" action="{{ url_for(\'change_bio\') }}" style="margin-top:8px">\n'
                  '    <div class="field">\n'
-                 '      <textarea name="bio" id="bio" maxlength="500" placeholder="コンビ名、活動歴、好きなネタのジャンルなど…">{{ user.bio '
-                 "or '' }}</textarea>\n"
+                 '      <textarea name="bio" id="bio" maxlength="500" placeholder="コンビ名、活動歴、好きなネタのジャンルなど…">{{ user.bio or \'\' }}</textarea>\n'
                  '      <p class="hint"><span id="bio-count">{{ (user.bio or \'\')|length }}</span> / 500字</p>\n'
                  '    </div>\n'
                  '    <button class="btn btn-small btn-primary">保存する 📝</button>\n'
@@ -835,12 +838,9 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                  '{% endif %}\n'
                  '\n'
                  '<div class="tabs">\n'
-                 '  <a class="tab {{ \'active\' if tab == \'posts\' }}" href="{{ url_for(\'profile\', '
-                 'username=user.username, tab=\'posts\') }}">🎙️ 投稿({{ posts|length }})</a>\n'
-                 '  <a class="tab {{ \'active\' if tab == \'favorites\' }}" href="{{ url_for(\'profile\', '
-                 'username=user.username, tab=\'favorites\') }}">🤩 お気に入り({{ favorites|length }})</a>\n'
-                 '  <a class="tab {{ \'active\' if tab == \'playlists\' }}" href="{{ url_for(\'profile\', '
-                 'username=user.username, tab=\'playlists\') }}">🎶 プレイリスト({{ playlists|length }})</a>\n'
+                 '  <a class="tab {{ \'active\' if tab == \'posts\' }}" href="{{ url_for(\'profile\', username=user.username, tab=\'posts\') }}">🎙️ 投稿({{ posts|length }})</a>\n'
+                 '  <a class="tab {{ \'active\' if tab == \'favorites\' }}" href="{{ url_for(\'profile\', username=user.username, tab=\'favorites\') }}">🤩 お気に入り({{ favorites|length }})</a>\n'
+                 '  <a class="tab {{ \'active\' if tab == \'playlists\' }}" href="{{ url_for(\'profile\', username=user.username, tab=\'playlists\') }}">🎶 プレイリスト({{ playlists|length }})</a>\n'
                  '</div>\n'
                  '\n'
                  "{% if tab == 'favorites' %}\n"
@@ -853,12 +853,9 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                  '\n'
                  "{% if tab == 'playlists' %}\n"
                  '  {% if mine %}\n'
-                 '  <form method="post" action="{{ url_for(\'create_playlist\') }}" '
-                 'style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px">\n'
-                 '    <input type="text" name="title" placeholder="新しいプレイリスト名" required style="padding:8px '
-                 '14px;border:2.5px solid var(--ink);border-radius:999px;font:inherit">\n'
-                 '    <label style="align-self:center;font-size:.9rem"><input type="checkbox" name="is_public" '
-                 'value="1"> 公開する</label>\n'
+                 '  <form method="post" action="{{ url_for(\'create_playlist\') }}" style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px">\n'
+                 '    <input type="text" name="title" placeholder="新しいプレイリスト名" required style="padding:8px 14px;border:2.5px solid var(--ink);border-radius:999px;font:inherit">\n'
+                 '    <label style="align-self:center;font-size:.9rem"><input type="checkbox" name="is_public" value="1"> 公開する</label>\n'
                  '    <button class="btn btn-primary btn-small">作成 🎶</button>\n'
                  '  </form>\n'
                  '  {% endif %}\n'
@@ -869,8 +866,7 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                  '      <b>{{ pl.title }}</b>\n'
                  '      <span class="hint">{{ pl.n }}本</span>\n'
                  '    </div>\n'
-                 '    <span class="badge-private" style="{{ \'background:var(--mint)\' if pl.is_public }}">{{ \'公開\' '
-                 "if pl.is_public else '非公開' }}</span>\n"
+                 '    <span class="badge-private" style="{{ \'background:var(--mint)\' if pl.is_public }}">{{ \'公開\' if pl.is_public else \'非公開\' }}</span>\n'
                  '  </a>\n'
                  '  {% else %}\n'
                  '  <div class="empty">プレイリストはまだありません 🎶</div>\n'
@@ -879,18 +875,16 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                  '  {% if items %}\n'
                  '  <div class="grid">\n'
                  '    {% for p in items %}\n'
-                 '    <a class="card" href="{{ url_for(\'post_page\', post_id=p.id) }}?src={{ \'ufav\' if tab == '
-                 '\'favorites\' else \'user\' }}&u={{ user.username|urlencode }}">\n'
+                 '    <a class="card" href="{{ url_for(\'post_page\', post_id=p.id) }}?src={{ \'ufav\' if tab == \'favorites\' else \'user\' }}&u={{ user.username|urlencode }}">\n'
                  '      <div class="thumb">\n'
-                 '        {% if p.thumb %}<img src="{{ url_for(\'media\', filename=p.thumb) }}" alt="" '
-                 'loading="lazy">{% else %}🎙️{% endif %}\n'
+                 '        {% if p.thumb %}<img src="{{ url_for(\'media\', filename=p.thumb) }}" alt="" loading="lazy">{% else %}🎙️{% endif %}\n'
                  '      </div>\n'
                  '      <div class="body">\n'
-                 '        <div class="title">{{ p.title }}{% if not p.is_public %} <span '
-                 'class="badge-private">非公開</span>{% endif %}</div>\n'
+                 '        {% if p.genre %}<a class="genre-badge" href="{{ url_for(\'index\', genre=p.genre) }}" style="background:{{ GENRE_COLOR.get(p.genre,\'#7a7484\') '
+                 '}};font-size:.7rem;padding:1px 8px;margin-bottom:2px" onclick="event.stopPropagation()">{{ p.genre }}</a>{% endif %}\n'
+                 '        <div class="title">{{ p.title }}{% if not p.is_public %} <span class="badge-private">非公開</span>{% endif %}</div>\n'
                  '        <div class="meta user-link" data-user="{{ p.username }}">{{ p.username }}</div>\n'
-                 '        <div class="stats"><span>▶️ {{ p.views }}</span><span>👍 {{ p.likes }}</span><span>🤩 {{ '
-                 'p.fav_count }}</span></div>\n'
+                 '        <div class="stats"><span>▶️ {{ p.views }}</span><span>👍 {{ p.likes }}</span><span>🤩 {{ p.fav_count }}</span></div>\n'
                  '      </div>\n'
                  '    </a>\n'
                  '    {% endfor %}\n'
@@ -913,14 +907,12 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                   '  <form method="post">\n'
                   '    <div class="field">\n'
                   '      <label for="username">ユーザーネーム(変更不可)</label>\n'
-                  '      <input type="text" id="username" name="username" maxlength="20" required '
-                  'autocomplete="username">\n'
+                  '      <input type="text" id="username" name="username" maxlength="20" required autocomplete="username">\n'
                   '      <p class="hint">1〜20文字。ひらがな・カタカナ・漢字・英数字・「_」「.」「・」が使えます</p>\n'
                   '    </div>\n'
                   '    <div class="field">\n'
                   '      <label for="password">パスワード</label>\n'
-                  '      <input type="password" id="password" name="password" minlength="6" required '
-                  'autocomplete="new-password">\n'
+                  '      <input type="password" id="password" name="password" minlength="6" required autocomplete="new-password">\n'
                   '      <p class="hint">6文字以上</p>\n'
                   '    </div>\n'
                   '    <button class="btn btn-primary">登録してはじめる 🎙️</button>\n'
@@ -936,15 +928,24 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                 '  <form method="post" enctype="multipart/form-data">\n'
                 '    <div class="field">\n'
                 '      <label for="audio">音声ファイル(必須)</label>\n'
-                '      <input class="file-input" type="file" id="audio" name="audio" '
-                'accept="audio/*,.m4a,.mp3,.wav,.aac,.caf" required>\n'
-                '      <p class="hint">📱 スマホの「ファイル」やボイスメモから選べます(mp3 / m4a / wav など)<br>🚫 '
-                '動画はアップロードできません。音声は必須なので写真だけの投稿はできません</p>\n'
+                '      <input class="file-input" type="file" id="audio" name="audio" accept="audio/*,.m4a,.mp3,.wav,.aac,.caf" required>\n'
+                '      <p class="hint">📱 スマホの「ファイル」やボイスメモから選べます(mp3 / m4a / wav など)<br>🚫 動画はアップロードできません。音声は必須なので写真だけの投稿はできません</p>\n'
+                '    </div>\n'
+                '    <div class="field">\n'
+                '      <label>🎭 ジャンル(必須)</label>\n'
+                '      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:4px">\n'
+                '        {% for g in GENRES %}\n'
+                '        <label style="cursor:pointer">\n'
+                '          <input type="radio" name="genre" value="{{ g }}" required style="display:none" class="genre-radio">\n'
+                '          <span class="genre-badge" style="background:#fff;color:var(--ink);border-color:var(--line)">{{ g }}</span>\n'
+                '        </label>\n'
+                '        {% endfor %}\n'
+                '      </div>\n'
+                '      <p class="hint">いずれか1つを選んでください</p>\n'
                 '    </div>\n'
                 '    <div class="field">\n'
                 '      <label for="title">タイトル(必須)</label>\n'
-                '      <input type="text" id="title" name="title" maxlength="60" required '
-                'placeholder="例:コンビニの新人がヤバすぎる">\n'
+                '      <input type="text" id="title" name="title" maxlength="60" required placeholder="例:コンビニの新人がヤバすぎる">\n'
                 '    </div>\n'
                 '    <div class="field">\n'
                 '      <label for="description">説明</label>\n'
@@ -977,6 +978,12 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
                 '{% endblock %}\n'}
 app.jinja_loader = DictLoader(TEMPLATES)
 
+
+GENRES = ["コント", "漫才", "漫談", "エピソードトーク", "その他"]
+GENRE_COLOR = {
+    "コント": "#ff5470", "漫才": "#5aa9ff", "漫談": "#2ec4b6",
+    "エピソードトーク": "#ffc830", "その他": "#7a7484",
+}
 
 AUDIO_EXT = {"mp3", "m4a", "wav", "aac", "ogg", "oga", "webm", "flac", "caf", "amr", "3gp"}  # 動画(mp4等)は不可
 IMAGE_EXT = {"jpg", "jpeg", "png", "gif", "webp", "heic", "heif"}
@@ -1098,6 +1105,8 @@ def init_db():
     pcols = [r[1] for r in db.execute("PRAGMA table_info(posts)").fetchall()]
     if "thumb_id" not in pcols:
         db.execute("ALTER TABLE posts ADD COLUMN thumb_id INTEGER")
+    if "genre" not in pcols:
+        db.execute("ALTER TABLE posts ADD COLUMN genre TEXT DEFAULT ''")
     db.commit()
     db.close()
 
@@ -1134,7 +1143,7 @@ def login_required(view):
 @app.context_processor
 def inject_globals():
     user = current_user()
-    return dict(me=user, me_is_admin=is_admin(user), SORTS=SORTS, PERIODS=PERIODS)
+    return dict(me=user, me_is_admin=is_admin(user), SORTS=SORTS, PERIODS=PERIODS, GENRES=GENRES, GENRE_COLOR=GENRE_COLOR)
 
 
 # ---------------------------------------------------------------- ファイル
@@ -1226,16 +1235,20 @@ app.jinja_env.filters["tags"] = split_tags
 # ---------------------------------------------------------------- ページ
 @app.route("/")
 def index():
-    sort = request.args.get("sort", "new")
+    sort   = request.args.get("sort", "new")
     period = request.args.get("period", "all")
-    q = (request.args.get("q") or "").strip()
+    genre  = request.args.get("genre", "")
+    q      = (request.args.get("q") or "").strip()
     where, params = "p.is_public = 1", []
+    if genre and genre in GENRES:
+        where += " AND p.genre = ?"
+        params.append(genre)
     if q:
         like = f"%{q}%"
         where += " AND (p.title LIKE ? OR u.username LIKE ? OR p.hashtags LIKE ?)"
-        params = [like, like, like.replace("#", "")]
+        params += [like, like, like.replace("#", "")]
     posts = fetch_posts(where, params, sort, period)
-    return render_template("index.html", posts=posts, sort=sort, period=period, q=q)
+    return render_template("index.html", posts=posts, sort=sort, period=period, q=q, genre=genre)
 
 
 # -------- 会員登録 / ログイン
@@ -1297,9 +1310,12 @@ def upload():
         description = (request.form.get("description") or "").strip()
         hashtags = " ".join(split_tags(request.form.get("hashtags")))
         is_public = 1 if request.form.get("is_public") == "1" else 0
+        genre = (request.form.get("genre") or "").strip()
         audio = request.files.get("audio")
         if not title:
             flash("タイトルを入れてください ✍️")
+        elif genre not in GENRES:
+            flash("ジャンルを選んでください 🎭")
         elif not audio or not audio.filename:
             flash("音声ファイルを選んでください 🎙️")
         else:
@@ -1309,9 +1325,9 @@ def upload():
             else:
                 db = get_db()
                 cur = db.execute(
-                    "INSERT INTO posts (user_id, title, description, hashtags, audio, is_public, created_at)"
-                    " VALUES (?, ?, ?, ?, ?, ?, ?)",
-                    (me["id"], title, description, hashtags, audio_name, is_public, now_str()),
+                    "INSERT INTO posts (user_id, title, description, hashtags, audio, is_public, genre, created_at)"
+                    " VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+                    (me["id"], title, description, hashtags, audio_name, is_public, genre, now_str()),
                 )
                 post_id = cur.lastrowid
                 images = [f for f in request.files.getlist("images") if f and f.filename][:4]
@@ -1474,15 +1490,19 @@ def rows_for_context(args):
             "p.is_public = 1 AND p.id IN (SELECT post_id FROM favorites WHERE user_id = ?)",
             (u["id"],), "new", "all",
         )
-    # feed: トップの並び(新着/いいね/お気に入り)・期間・検索をそのまま引き継ぐ
+    # feed: トップの並び(新着/いいね/お気に入り)・期間・検索・ジャンルをそのまま引き継ぐ
     sort = args.get("sort", "new")
     period = args.get("period", "all")
+    genre  = args.get("genre", "")
     q = (args.get("q") or "").strip()
     where, params = "p.is_public = 1", []
+    if genre and genre in GENRES:
+        where += " AND p.genre = ?"
+        params.append(genre)
     if q:
         like = f"%{q}%"
         where += " AND (p.title LIKE ? OR u.username LIKE ? OR p.hashtags LIKE ?)"
-        params = [like, like, like.replace("#", "")]
+        params += [like, like, like.replace("#", "")]
     return fetch_posts(where, params, sort, period)
 
 
@@ -1520,21 +1540,62 @@ def edit_post(post_id):
     if post["user_id"] != me["id"] and not is_admin(me):
         abort(403)
     db = get_db()
+    images = db.execute(
+        "SELECT * FROM post_images WHERE post_id = ? ORDER BY position", (post_id,)
+    ).fetchall()
     if request.method == "POST":
         title = (request.form.get("title") or "").strip()
         description = (request.form.get("description") or "").strip()
         hashtags = " ".join(split_tags(request.form.get("hashtags")))
+        genre = (request.form.get("genre") or "").strip()
         if not title:
             flash("タイトルを入れてください ✍️")
+        elif genre not in GENRES:
+            flash("ジャンルを選んでください 🎭")
         else:
+            pass
+        if not title or genre not in GENRES:
+            return render_template("edit_post.html", post=post, images=images)
+        if True:
+            # 音声ファイルの差し替え(任意)
+            new_audio = request.files.get("audio")
+            if new_audio and new_audio.filename:
+                audio_name = save_upload(new_audio, AUDIO_EXT)
+                if audio_name:
+                    delete_file(post["audio"])
+                    db.execute("UPDATE posts SET audio = ? WHERE id = ?", (audio_name, post_id))
+                else:
+                    flash("対応していない音声形式です(mp3 / m4a / wav など)🙏")
+                    return render_template("edit_post.html", post=post, images=images)
+            # 写真の個別削除
+            for img_id in request.form.getlist("delete_image"):
+                img = db.execute(
+                    "SELECT filename FROM post_images WHERE id = ? AND post_id = ?", (img_id, post_id)
+                ).fetchone()
+                if img:
+                    delete_file(img["filename"])
+                    db.execute("DELETE FROM post_images WHERE id = ?", (img_id,))
+            # 新しい写真の追加(合計4枚まで)
+            cur_count = db.execute(
+                "SELECT COUNT(*) FROM post_images WHERE post_id = ?", (post_id,)
+            ).fetchone()[0]
+            slots = max(0, 4 - cur_count)
+            new_imgs = [f for f in request.files.getlist("new_images") if f and f.filename][:slots]
+            for i, img in enumerate(new_imgs):
+                img_name = save_upload(img, IMAGE_EXT)
+                if img_name:
+                    db.execute(
+                        "INSERT INTO post_images (post_id, filename, position) VALUES (?, ?, ?)",
+                        (post_id, img_name, cur_count + i),
+                    )
             db.execute(
-                "UPDATE posts SET title = ?, description = ?, hashtags = ? WHERE id = ?",
-                (title, description, hashtags, post_id),
+                "UPDATE posts SET title = ?, description = ?, hashtags = ?, genre = ? WHERE id = ?",
+                (title, description, hashtags, genre, post_id),
             )
             db.commit()
             flash("投稿を更新しました!✏️✨")
             return redirect(url_for("post_page", post_id=post_id))
-    return render_template("edit_post.html", post=post)
+    return render_template("edit_post.html", post=post, images=images)
 
 # -------- コメント
 @app.post("/post/<int:post_id>/comment")
