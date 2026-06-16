@@ -42,6 +42,16 @@ TEMPLATES = {'404.html': '{% extends "base.html" %}\n'
               '<meta charset="UTF-8">\n'
               '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
               '<title>{% block title %}ラジオコント漫才〜RAKOMAN〜{% endblock %}</title>\n'
+              '<meta name="description" content="ラジオコント・ラジオ漫才専門の音声投稿サイト「RAKOMAN（ラコマン）」。コント・漫才・漫談・エピソードトークを聴いて、いいねやお気に入りで応援しよう。">\n'
+              '<meta name="keywords" content="RAKOMAN,ラコマン,ラジオコント,ラジオ漫才,コント,漫才,漫談,エピソードトーク,音声投稿,お笑い">\n'
+              '<meta property="og:title" content="ラジオコント漫才〜RAKOMAN〜">\n'
+              '<meta property="og:description" content="ラジオコント・ラジオ漫才専門の音声投稿サイト。聴いて、笑って、応援しよう！">\n'
+              '<meta property="og:type" content="website">\n'
+              '<meta property="og:site_name" content="RAKOMAN">\n'
+              '<meta name="twitter:card" content="summary">\n'
+              '<!-- ▼▼▼ Google Search Console の確認タグはこの下に貼る ▼▼▼ -->\n'
+              '<!-- GOOGLE_VERIFY_HERE -->\n'
+              '<!-- ▲▲▲ ここまで ▲▲▲ -->\n'
               '<link rel="preconnect" href="https://fonts.googleapis.com">\n'
               '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n'
               '<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">\n'
@@ -1879,6 +1889,27 @@ def playlist_move(playlist_id):
                 db.execute("UPDATE playlist_items SET position = ? WHERE id = ?", (pos, iid))
             db.commit()
     return redirect(url_for("playlist_page", playlist_id=playlist_id))
+
+
+
+@app.route("/robots.txt")
+def robots_txt():
+    body = "User-agent: *\nAllow: /\nSitemap: " + request.url_root.rstrip("/") + "/sitemap.xml\n"
+    return app.response_class(body, mimetype="text/plain")
+
+
+@app.route("/sitemap.xml")
+def sitemap_xml():
+    db = get_db()
+    posts = db.execute("SELECT id, created_at FROM posts WHERE is_public = 1 ORDER BY id DESC LIMIT 1000").fetchall()
+    root = request.url_root.rstrip("/")
+    urls = ['<url><loc>' + root + '/</loc><changefreq>daily</changefreq></url>']
+    for p in posts:
+        urls.append('<url><loc>' + root + '/post/' + str(p["id"]) + '</loc></url>')
+    xml = ('<?xml version="1.0" encoding="UTF-8"?>'
+           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+           + "".join(urls) + '</urlset>')
+    return app.response_class(xml, mimetype="application/xml")
 
 
 @app.errorhandler(404)
