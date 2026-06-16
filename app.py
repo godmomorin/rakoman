@@ -1901,14 +1901,15 @@ def robots_txt():
 @app.route("/sitemap.xml")
 def sitemap_xml():
     db = get_db()
-    posts = db.execute("SELECT id, created_at FROM posts WHERE is_public = 1 ORDER BY id DESC LIMIT 1000").fetchall()
+    posts = db.execute("SELECT id FROM posts WHERE is_public = 1 ORDER BY id DESC LIMIT 1000").fetchall()
     root = request.url_root.rstrip("/")
-    urls = ['<url><loc>' + root + '/</loc><changefreq>daily</changefreq></url>']
+    lines = ['<?xml version="1.0" encoding="UTF-8"?>',
+             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+             '  <url><loc>' + root + '/</loc><changefreq>daily</changefreq></url>']
     for p in posts:
-        urls.append('<url><loc>' + root + '/post/' + str(p["id"]) + '</loc></url>')
-    xml = ('<?xml version="1.0" encoding="UTF-8"?>'
-           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-           + "".join(urls) + '</urlset>')
+        lines.append('  <url><loc>' + root + '/post/' + str(p["id"]) + '</loc></url>')
+    lines.append('</urlset>')
+    xml = "\n".join(lines) + "\n"
     return app.response_class(xml, mimetype="application/xml")
 
 
